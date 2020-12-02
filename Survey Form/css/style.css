@@ -1,0 +1,294 @@
+
+
+* {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+
+
+.row {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+body {
+    background-image: url(https://image.freepik.com/free-vector/modern-student-s-life-composition-with-flat-design_23-2147898949.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2858e7;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.layout {
+    background-color: #000000;
+    opacity: .8 ;
+    margin: 0px;
+    font-size: large;
+}
+
+#title , #description {
+    text-align: center;
+}
+.row > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#survey-form {
+    width : 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.form_1 {
+    border-radius: 10px;
+    background-color: #E1341E;
+    padding-top: 45px;
+    padding-bottom: 20px ;
+    opacity: 1;
+}
+
+#survey-form > label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#survey-form > input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.radio_buttons {
+    margin-bottom: 40px;
+}
+
+
+.radio_buttons > div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.check_boxes > div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.check_boxes {
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: small;
+}
+
+.suggestions {
+    margin-bottom: 20px;
+}
+
+.suggestions >  label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#suggestions {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+#submit {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .large {
+        display: flex;
+    }
+    .col-lg-1 {
+        width: 8.33%;   
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 49.99%;
+    }
+
+    .col-lg-7 {
+        width: 58.32%;
+    }
+
+    .col-lg-8 {
+        width: 66.65%;
+    }
+
+    .col-lg-9 {
+        width: 74.98%;
+    }
+
+    .col-lg-10 {
+        width: 83.31%;
+    }
+
+    .col-lg-11 {
+        width: 91.64%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .medium {
+        display: flex; 
+    }
+
+    .col-md-1 {
+        width: 8.33%;   
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 49.99%;
+    }
+
+    .col-md-7 {
+        width: 58.32%;
+    }
+
+    .col-md-8 {
+        width: 66.65%;
+    }
+
+    .col-md-9 {
+        width: 74.98%;
+    }
+
+    .col-md-10 {
+        width: 83.31%;
+    }
+
+    .col-md-11 {
+        width: 91.64%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .small {
+        width: 60%;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+    .col-sm-1 {
+        width: 8.33%;   
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 49.99%;
+    }
+
+    .col-sm-7 {
+        width: 58.32%;
+    }
+
+    .col-sm-8 {
+        width: 66.65%;
+    }
+
+    .col-sm-9 {
+        width: 74.98%;
+    }
+
+    .col-sm-10 {
+        width: 83.31%;
+    }
+
+    .col-sm-11 {
+        width: 91.64%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
