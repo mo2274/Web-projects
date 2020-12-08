@@ -1,10 +1,25 @@
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 * {
     box-sizing: border-box;
-    /*border: 1px solid black;*/
 }
 
+body {
+    background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), 
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-color:  #1b1b32;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0px;
+    margin: 0px;
+}
 
 
 .row {
@@ -13,25 +28,12 @@
     padding-top: 40px;
 }
 
-body {
-    background-image: url(https://image.freepik.com/free-vector/modern-student-s-life-composition-with-flat-design_23-2147898949.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #2858e7;
-    color: white;
-    padding: 0px;
-    margin: 0px;
-}
-
-.layout {
-    background-color: #000000;
-    opacity: .8 ;
-    margin: 0px;
-    font-size: large;
-}
-
 #title , #description {
     text-align: center;
+}
+
+#title::after {
+    content: "♥";
 }
 .row > div {
     margin-left: auto;
@@ -48,7 +50,7 @@ body {
 
 .form_1 {
     border-radius: 10px;
-    background-color: #E1341E;
+    background-color: rgba(27, 27, 50, 0.8);
     padding-top: 45px;
     padding-bottom: 20px ;
     opacity: 1;
@@ -120,7 +122,7 @@ textarea {
     width: 100%;
     height: 40px;
     padding: 10px;
-    background-color: #000000;
+    background-color: #37af65;
     color: antiquewhite;
 }
 
